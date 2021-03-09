@@ -109,15 +109,17 @@
     left: 5%;
     width: 33%;
     height: 30%;
+    font-size: 1vw;
 }
 
 .spen {
     color: orange;
-    font-size: 33;
+    font-size: 2vw;
 }
 
 .tex p {
-    font-size: 30;
+    /* font-size: 20px; */
+    font-size: 1.5vw;
 }
 
 
@@ -139,7 +141,7 @@
 }
 
 .tex.fire::after {
-    font-size: 30;
+    font-size: 1.5vw;
     content: "In 2019, bushfire season started in Australia. The causes varied from natural lightning strikes to human mistakes. By January of 2020, more than 18 Million hectares of forest land had burned, making it one of the worst ever in history. ";
 }
 
@@ -162,7 +164,7 @@
 }
 
 .tex.cobid::after {
-    font-size: 30;
+    font-size: 1.5vw;
     content: "In December 2019, Wuhan a city in China recorded the first case of CoVid-19 disease. By January of 2020, this had spread to over 50 countries worldwide. In March of 2020, PM Narendra Modi implemented nationwide lockdown. Life still hasn't returned to normal after 1 year today :(";
 }
 
@@ -185,7 +187,7 @@
 }
 
 .tex.boom::after {
-    font-size: 30;
+    font-size: 1.5vw;
     content: "On 4th August, 2020, A bomb went off in Beirut, the capital city of Lebanon. This explosion claimed the lives of 210 souls, injuring over 7,500 people. The property damage soared past US$15 Million, making it the worst explosion in 2020.";
 }
 
@@ -208,6 +210,6 @@
 }
 
 .tex.eco::after {
-    font-size: 30;
+    font-size: 1.3vw;
     content: "Due to extensive lockdown, there was a severe global economic crisis, some termed 'Corona'cession. In late February, 2020, the stock market crashed. By September, every advanced economy had fell into recession. Economists predict that it would take us 4-5 years to get back on track.";
 }

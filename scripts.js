@@ -143,6 +143,5 @@ function econ() {
 let load = document.getElementById("loader");
 
 function loaded() {
-
     load.style.display = 'none';
 }
