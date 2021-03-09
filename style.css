@@ -19,6 +19,16 @@
     opacity: 0.8;
 } */
 
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #030313 url("./Resources/load.gif") no-repeat center;
+    z-index: 999;
+}
+
 .bgvids {
     position: fixed;
     top: 0;
