@@ -1,0 +1,203 @@
+/* #fire {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 150%;
+    min-height: 150%;
+    z-index: -9998;
+    opacity: 0.8;
+    background-size: cover;
+}
+
+#home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+    opacity: 0.8;
+} */
+
+.bgvids {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.bgvids video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* #tofire {
+    position: absolute;
+    opacity: 0.7;
+    margin: 0;
+    top: 20%;
+    left: 5%;
+    max-width: 20%;
+    z-index: 3;
+} */
+
+.year {
+    cursor: pointer;
+}
+
+.year img:hover {
+    opacity: 1;
+    /* cursor: none; */
+}
+
+#toboom:hover {
+    content: url("./Resources/2boom.png");
+}
+
+#tofire:hover {
+    content: url("./Resources/2fire.png");
+}
+
+#toeco:hover {
+    content: url("./Resources/0eco.png");
+}
+
+#tocob:hover {
+    content: url("./Resources/0cob.png");
+}
+
+
+/* .year {
+    
+    position: relative;
+    height: 100%;
+    width: 100%;
+} */
+
+.year img {
+    position: relative;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 45%;
+    padding: 2.4%;
+    z-index: 3;
+}
+
+.data {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 33%;
+    height: 30%;
+}
+
+.spen {
+    color: orange;
+    font-size: 33;
+}
+
+.tex p {
+    font-size: 30;
+}
+
+
+/*  */
+
+.headin.fire span {
+    display: none;
+    position: relative;
+}
+
+.headin.fire::after {
+    top: 0;
+    left: 0;
+    content: "Australian Bush Fires - January, 2020";
+}
+
+.tex.fire p {
+    display: none;
+}
+
+.tex.fire::after {
+    font-size: 30;
+    content: "In 2019, bushfire season started in Australia. The causes varied from natural lightning strikes to human mistakes. By January of 2020, more than 18 Million hectares of forest land had burned, making it one of the worst ever in history. ";
+}
+
+
+/*  */
+
+.headin.cobid span {
+    display: none;
+    position: relative;
+}
+
+.headin.cobid::after {
+    top: 0;
+    left: 0;
+    content: "The Corona Virus Pandemic - 2020";
+}
+
+.tex.cobid p {
+    display: none;
+}
+
+.tex.cobid::after {
+    font-size: 30;
+    content: "In December 2019, Wuhan a city in China recorded the first case of CoVid-19 disease. By January of 2020, this had spread to over 50 countries worldwide. In March of 2020, PM Narendra Modi implemented nationwide lockdown. Life still hasn't returned to normal after 1 year today :(";
+}
+
+
+/*  */
+
+.headin.boom span {
+    display: none;
+    position: relative;
+}
+
+.headin.boom::after {
+    top: 0;
+    left: 0;
+    content: "Beirut Explosion - August 2020";
+}
+
+.tex.boom p {
+    display: none;
+}
+
+.tex.boom::after {
+    font-size: 30;
+    content: "On 4th August, 2020, A bomb went off in Beirut, the capital city of Lebanon. This explosion claimed the lives of 210 souls, injuring over 7,500 people. The property damage soared past US$15 Million, making it the worst explosion in 2020.";
+}
+
+
+/*  */
+
+.headin.eco span {
+    display: none;
+    position: relative;
+}
+
+.headin.eco::after {
+    top: 0;
+    left: 0;
+    content: "Economy Crash | Covid-19 Recession - 2020";
+}
+
+.tex.eco p {
+    display: none;
+}
+
+.tex.eco::after {
+    font-size: 30;
+    content: "Due to extensive lockdown, there was a severe global economic crisis, some termed 'Corona'cession. In late February, 2020, the stock market crashed. By September, every advanced economy had fell into recession. Economists predict that it would take us 4-5 years to get back on track.";
+}
